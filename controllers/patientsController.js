@@ -52,7 +52,6 @@ const addPatient = async(req, res)=>{
         }
       };
       
-
  module.exports = { 
     addPatient, 
     getAllPatients,

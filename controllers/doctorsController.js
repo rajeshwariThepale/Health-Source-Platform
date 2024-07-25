@@ -23,4 +23,3 @@ const getAllDoctors = async(req, res)=>{
 }
 
 module.exports = { addDoctor, getAllDoctors};
-

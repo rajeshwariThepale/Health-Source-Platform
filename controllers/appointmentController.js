@@ -43,15 +43,6 @@ const getAppointmentByDoctor = async (req, res)=>{
 };
 
 
-// const getAppointmentByQuery = async (req, res) => {
-//     try{
-//         const result = await appointmentServices.getAppointmentByQuery(req.query);
-//         res.status(200).send(result);
-//     } catch(error){
-//         res.status(500).send({message:'server error'});
-//     }
-// };
-
 const updateAppointmentStatusByDoctorId = async (req, res) => {
     try{
         console.log(req.body);
