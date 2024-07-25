@@ -4,7 +4,6 @@ const patientsController = require('../controllers/patientsController');
 const doctorsController = require('../controllers/doctorsController');
 const appointmentController = require('../controllers/appointmentController');
 
-
 // Patient routes
 router.post('/patient/addPatient', patientsController.addPatient);
 router.get('/patients', patientsController.getAllPatients);

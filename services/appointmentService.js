@@ -53,15 +53,6 @@ async function getAppointmentByDoctor(DoctorId){
     }
 }
 
-// async function getAppointmentByQuery(query){
-//     try{
-//         const allAppointments = await Appointments.find(query, { _id: 0, __v: 0});
-//         return allAppointments;
-//     }
-//     catch(error){
-//         throw { status: 500, message: "Internal server Error" };
-//     }
-// }
 async function updateAppointmentStatusByDoctor(appointmentId, status){
     try{
         console.log("appointmentId",appointmentId);
