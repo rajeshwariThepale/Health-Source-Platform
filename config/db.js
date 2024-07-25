@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-
 const connectDB = async ()=>{
     try{
         await mongoose.connect('mongodb+srv://rajeshwarithepale:dbRajeshwari20@cluster0.cee0juj.mongodb.net/Appointments');

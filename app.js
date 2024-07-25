@@ -23,7 +23,7 @@ const corsOptions = {
 app.use(bodyParser.json());
 app.use('/api', apiRoutes);
 
-
+//server port
 app.listen(port, ()=>{
     console.log(`Server is running on port ${port}`);
 });
