@@ -19,7 +19,7 @@ router.get('/allAppointment', appointmentController.getAllAppointment);
 router.get('/appointmentByPatients/', appointmentController.getAllAppointmentByPatientId);
 router.get('/appointmentByDoctor/', appointmentController.getAppointmentByDoctor);
 
-// router.get('/appointmentQuery', appointmentController.getAppointmentByQuery);
+
 router.put('/appointment/:id', appointmentController.updateAppointmentStatusByDoctorId);
 router.delete('/deleteAppointments/:id', appointmentController.deleteAppointmentByPatient); 
 
